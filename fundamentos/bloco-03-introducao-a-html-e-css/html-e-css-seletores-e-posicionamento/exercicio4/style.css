@@ -1,0 +1,36 @@
+.div-border:hover{
+    border: 5px solid green;
+}
+
+#div-primary {
+    background-color: hotpink;
+}
+
+#div-secondary {
+    background-color: indigo;
+}
+
+#div-complementary {
+    background-color: lawngreen;
+    width: 400px;
+}
+
+#div-darkness {
+    background-color: lightcoral;
+}
+
+#div-clean {
+    background-color: lightgreen;
+}
+
+div {
+    width: 150px;
+}
+
+h3 {
+    color: white;
+}
+
+.impar-item {
+    font-style: italic;
+}
