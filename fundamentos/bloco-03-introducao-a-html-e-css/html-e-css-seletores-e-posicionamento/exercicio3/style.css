@@ -1,0 +1,19 @@
+h1 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+.back-color:hover {
+  background-color: blueviolet;
+}
+.lista-classe:active {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+  }
+  ul {
+    list-style:none
+  }
+  ol {
+      list-style: none;
+  }
