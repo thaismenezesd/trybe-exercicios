@@ -11,3 +11,17 @@ let player = {
 console.log('A jogadora' + ' ' + player.name + ' ' + player.lastName + ' ' + 'tem ' + player.age + ' anos de idade');
 
 console.log('A jogadora' + ' ' + player.name + ' ' + player.lastName + ' ' + 'foi eleita a melhor do mundo por' + ' ' + player.bestInTheWorld.sixTimes.length + ' ' + 'vezes');
+
+//Imprima no console a mensagem 'Olá xxxxx' para cada nome, substituindo o xxxxx pelo nome em questão.
+
+let names = {
+    person1: 'João',
+    person2: 'Maria',
+    person3: 'Jorge' 
+  };
+
+ for (let key in names) {
+     console.log('Olá' + ' ' + names['person1']);
+     console.log('Olá' + ' ' + names['person2']);
+     console.log('Olá' + ' ' + names['person3']);
+ }
