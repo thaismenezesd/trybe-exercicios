@@ -44,6 +44,16 @@ let names = {
     personagem: 'Margarida',
     origem: 'Pato Donald',
     nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
+    recorrente: 'sim',
   };
 
   console.log('Bem vinda,' + ' ' + info.personagem);
+  console.log(info);
+  
+  for (let keys in info) {
+    console.log(keys);
+  }
+  
+  for (let keys in info) {
+    console.log(info[keys]);
+  }
