@@ -13,6 +13,13 @@
       document.getElementById("page-title").innerHTML = 'Prision Breack';
       document.getElementById("second-paragraph").innerHTML = 'Segunda Temporada';
       document.getElementById("subtitle").innerHTML = 'Novos Episodios';
+
+      let list = [];
+      list = document.querySelectorAll("p");
+      for (var i = 0; i < list.length; ++i) {
+        list[i].classList.add('paragrafo-nova-classe');
+       }
+       
     </script>
   </body>
 </html>
