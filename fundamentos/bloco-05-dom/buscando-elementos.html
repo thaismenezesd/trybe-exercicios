@@ -16,7 +16,16 @@
    const elementoPai = document.querySelector('#elementoOndeVoceEsta').parentNode;
    elementoPai.setAttribute('style', 'background-color: red');
 
-   document.getElementById('primeiroFilhoDoFilho').innerHTML = 'Acessando';
+  const primeiroFilhoDoFilho = document.getElementById('primeiroFilhoDoFilho').innerHTML = 'Acessando';
+  const primeiroFilho = document.getElementById('pai').firstChild;
+  const elementoOndeVoceEsta = document.getElementById('elementoOndeVoceEsta').firstElementChild;
+  const atencao = document.getElementById('elementoOndeVoceEsta').nextSibling;
+  const terceiroFilho = document.getElementById('elementoOndeVoceEsta').nextSibling.nextSibling;
 
-   
+  const pai = document.getElementById('pai');
+    const irmaoElementoOndeVoceEsta = document.createElement('section');
+    irmaoElementoOndeVoceEsta.id = 'irmaoElementoOndeVoceEsta';
+    pai.appendChild(irmaoElementoOndeVoceEsta);
+  
+  
 </script>
